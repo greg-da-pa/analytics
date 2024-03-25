@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Google Trends Embed</title>
+    <style>
+        .chart-container {
+            display: inline-block;
+            width: 45%; /* szerokość 45% dla każdego kontenera wykresu */
+            margin-right: 2%; /* margines poziomy między wykresami */
+            margin-bottom: 20px; /* margines pionowy między wykresami */
+            vertical-align: top; /* wyrównanie do góry */
+        }
+    </style>
+</head>
+<body>
+    <!-- Include the Google Trends embed_loader.js script -->
+    <script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/3620_RC01/embed_loader.js"></script>
+    
+    <!-- Container for first two charts -->
+    <div class="chart-container">
+        <!-- Script to render Google Trends chart 1 -->
+        <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"passport photo online","geo":"","time":"today 3-m"}],"category":0,"property":""}, {"exploreQuery":"date=today%203-m&q=passport%20photo%20online&hl=pl","guestPath":"https://trends.google.com:443/trends/embed/"}); </script>
+
+        <!-- Script to render Google Trends chart 2 -->
+        <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"passport photo digital","geo":"","time":"today 3-m"}],"category":0,"property":""}, {"exploreQuery":"date=today%203-m&q=passport%20photo%20online&hl=pl","guestPath":"https://trends.google.com:443/trends/embed/"}); </script>
+    </div>
+
+    <!-- Container for next two charts -->
+    <div class="chart-container">
+        <!-- Script to render Google Trends chart 3 -->
+        <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"passport photo","geo":"","time":"today 3-m"}],"category":0,"property":""}, {"exploreQuery":"date=today%203-m&q=passport%20photo%20online&hl=pl","guestPath":"https://trends.google.com:443/trends/embed/"}); </script>
+
+        <!-- Script to render Google Trends chart 4 -->
+        <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"free passport photo online","geo":"","time":"today 3-m"}],"category":0,"property":""}, {"exploreQuery":"date=today%203-m&q=passport%20photo%20online&hl=pl","guestPath":"https://trends.google.com:443/trends/embed/"}); </script>
+    </div>
+
+    <!-- Container for next two charts -->
+    <div class="chart-container">
+        <!-- Script to render Google Trends chart 5 -->
+        <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"passport photo maker","geo":"","time":"today 3-m"}],"category":0,"property":""}, {"exploreQuery":"date=today%203-m&q=passport%20photo%20online&hl=pl","guestPath":"https://trends.google.com:443/trends/embed/"}); </script>
+
+        <!-- Script to render Google Trends chart 6 -->
+        <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"passport photo at home","geo":"","time":"today 3-m"}],"category":0,"property":""}, {"exploreQuery":"date=today%203-m&q=passport%20photo%20online&hl=pl","guestPath":"https://trends.google.com:443/trends/embed/"}); </script>
+    </div>
+
+    <!-- Container for last two charts -->
+    <div class="chart-container">
+        <!-- Script to render Google Trends chart 7 -->
+        <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"passport photo app","geo":"","time":"today 3-m"}],"category":0,"property":""}, {"exploreQuery":"date=today%203-m&q=passport%20photo%20online&hl=pl","guestPath":"https://trends.google.com:443/trends/embed/"}); </script>
+
+        <!-- Script to render Google Trends chart 8 -->
+        <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"passport photo near me","geo":"","time":"today 3-m"}],"category":0,"property":""}, {"exploreQuery":"date=today%203-m&q=passport%20photo%20online&hl=pl","guestPath":"https://trends.google.com:443/trends/embed/"}); </script>
+    </div>
+</body>
+</html>
+
+
